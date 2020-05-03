@@ -37,7 +37,7 @@ class Solution:
             return
 
         nums[:] = [x for x in nums if x != 0]
-
+        
         nums.extend([0] * num_zeroes)
         print(nums)
 
